@@ -42,7 +42,7 @@ public class Qes1_3 {
 		// ユーザー名「name」を登録しました								
 		//nameの手は「パー」								
 		// 相手の手は「グー」								
-		System.out.println("ユーザー名「" + name + "」を登録しました");// コンソール出力(ユーザーの名前)
+		//System.out.println("ユーザー名「" + name + "」を登録しました");// 問題文に指示があるので記載コンソール上では必要なし
 		String [] rps = new String [] {"グー","チョキ","パー"};// String型配列変数に「グー,チョキ,パー」を代入
 		int count = 0;// int型変数countを宣言
 		int win = 0;// int型変数winを宣言

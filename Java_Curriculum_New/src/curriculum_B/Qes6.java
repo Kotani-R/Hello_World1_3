@@ -60,7 +60,7 @@ public class Qes6 {
 				System.out.println("");// 改行
 				break;
 			default://上記以外を入力した場合
-				System.out.println("『その他商品』は指定の商品ではありません");
+				System.out.println("『"+ product_2 +"』は指定の商品ではありません");
 				break;
 
 			}
