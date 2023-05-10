@@ -43,7 +43,6 @@ public class Curriculum_18 {
 			array[i] = new java.util.Random().nextInt(101) + 1;// 1~100の乱数をarray[]に格納
 			System.out.println(array[i]);
 		}
-		System.out.println("");// 改行
 		return array;// 戻り値(int型配列array)
 	}
 
@@ -51,8 +50,7 @@ public class Curriculum_18 {
 	// ※小数点以下も表示されるようにしてください。
 
 	// Q5から受け取った戻り値の要素の平均値をコンソールに出力するメソッド
-	public static double average() {// double型変数で値を返す
-		int[] array = random(4);// Q5の戻り値をint型配列arrayに格納
+	public static double average(int[]array) {// double型変数で値を返す
 		double sum_Array = 0;
 		for (int i = 0; i < array.length; i++) {
 			double array_Double = (double) array[i];// int型配列の各要素をdouble型変数に変換して代入
@@ -66,8 +64,7 @@ public class Curriculum_18 {
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
 
 	// 戻り値の値が50以上か評価するメソッド
-	public static void evaluation() {
-		double eval_Array = average();// double型変数eval_ArrayにQ6の戻り値を格納
+	public static void evaluation(double eval_Array) {
 		System.out.println(
 				eval_Array >= 50 ? "true" : "false");// eval_Arrayが50以上ならtrue
 	}
@@ -88,12 +85,13 @@ public class Curriculum_18 {
 		calculation(10.1, 12.3);// Q4 calculationメソッドに引数を渡して呼び出す
 		System.out.println("");// 改行
 
-		random(4);// Q5 randomメソッドに引数を渡して呼び出す
+		int[] array = random(4);// Q5 randomメソッドに引数を渡して呼び出し、戻り値を受け取る
 		System.out.println("");// 改行
 
-		average();// Q6 averagaメソッドを呼び出す
-
-		evaluation();// Q7 evaluationメソッドを呼び出す
+		double eval_Array=average(array);// Q6 averagaメソッドに引数を渡して呼び出し、戻り値を受け取る
+		System.out.println("");// 改行
+		
+		evaluation(eval_Array);// Q7 evaluationメソッドに引数を渡して呼び出す
 
 	}
 
