@@ -34,11 +34,15 @@ public class Main {
 		if (name.isEmpty()) {
 			throw new IllegalArgumentException("名前が入力されていません");
 		}
-
-		Hero h = new Hero(name);// Heroインスタンスを生成 
-		Console c = new Console();// Consoleインスタンスを生成
-
-		c.output(h);// コンソール出力するメソッド
+		
+		// Heroインスタンスを生成
+		Hero h = new Hero(name);
+		
+		// Consoleインスタンスを生成
+		Console c = new Console();
+		
+		// コンソール出力するメソッド
+		c.output(h);
 
 	}
 

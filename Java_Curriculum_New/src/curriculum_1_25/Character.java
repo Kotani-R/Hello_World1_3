@@ -1,12 +1,18 @@
 package curriculum_1_25;
 
 public class Character {
-	private String name;// 名前を宣言
-	private int hp;// HPを宣言 			
-	private int mp;// MPを宣言
-	private int atk;// 攻撃力を宣言
-	private int agi;// 素早さを宣言
-	private int def;// 防御力を宣言
+	// 名前を宣言
+	private String name;
+	// HPを宣言 
+	private int hp;
+	// MPを宣言
+	private int mp;
+	// 攻撃力を宣言
+	private int atk;
+	// 素早さを宣言
+	private int agi;
+	// 防御力を宣言
+	private int def;
 
 	// getter(名前)
 	public String getName() {

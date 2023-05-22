@@ -1,4 +1,5 @@
 package curriculum_1_25;
+
 // Heroクラス( Characterのサブクラス)
 public class Hero extends Character {
 	// 1~999の乱数をint型変数として戻す
