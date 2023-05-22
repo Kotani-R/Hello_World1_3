@@ -1,6 +1,7 @@
 package curriculum_1_25;
 
 public class Console {
+	// コンストラクタ
 	public void output(Hero h) {
 		// コンソール出力
 		// こんにちは 「 名前 」 さん
@@ -19,8 +20,7 @@ public class Console {
 		System.out.println("防御力：" + h.getDef());
 		// 改行
 		System.out.println("");
-		System.out.println("さあ冒険に出かけよう！");	
+		System.out.println("さあ冒険に出かけよう！");
 	}
-	
 
 }
