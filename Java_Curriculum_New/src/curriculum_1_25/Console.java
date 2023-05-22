@@ -1,7 +1,6 @@
 package curriculum_1_25;
 
 public class Console {
-	// コンストラクタ
 	public void output(Hero h) {
 		// コンソール出力
 		// こんにちは 「 名前 」 さん
