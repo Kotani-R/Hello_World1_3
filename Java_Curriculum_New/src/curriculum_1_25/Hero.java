@@ -19,6 +19,5 @@ public class Hero extends Character {
 		this.setAtk(this.Random());
 		this.setAgi(this.Random());
 		this.setDef(this.Random());
-
 	}
 }

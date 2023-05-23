@@ -21,5 +21,4 @@ public class Console {
 		System.out.println("");
 		System.out.println("さあ冒険に出かけよう！");
 	}
-
 }
