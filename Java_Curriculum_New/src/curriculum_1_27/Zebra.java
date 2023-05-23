@@ -3,9 +3,12 @@ package curriculum_1_27;
 public class Zebra extends Animal {
 	// コンストラクタ
 	public Zebra(String name, double length, int speed) {
-		this.setName(name);// 「シマウマ」を代入
-		this.setLength(length);// 「2.4」を代入
-		this.setSpeed(speed);// 「65」を代入
+		//「シマウマ」を代入
+		this.setName(name);
+		//「2.4」を代入
+		this.setLength(length);
+		//「65」を代入
+		this.setSpeed(speed);
 
 		// スーパークラスのoutputメソッドを呼び出す
 		// 「動物名、体長、速度」をコンソールに出力

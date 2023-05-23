@@ -3,9 +3,12 @@ package curriculum_1_27;
 public class Lion extends Animal {
 	// コンストラクタ
 	public Lion(String name, double length, int speed) {
-		this.setName(name);// 「ライオン」を代入
-		this.setLength(length);// 「2.1」を代入
-		this.setSpeed(speed);// 「80」を代入
+		//「ライオン」を代入
+		this.setName(name);
+		//「2.1」を代入
+		this.setLength(length);
+		//「80」を代入
+		this.setSpeed(speed);
 
 		// スーパークラスのoutputメソッドを呼び出す
 		// 「動物名、体長、速度」をコンソールに出力
