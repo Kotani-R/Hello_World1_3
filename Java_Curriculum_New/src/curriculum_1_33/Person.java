@@ -1,9 +1,9 @@
 package curriculum_1_33;
 
 public class Person {
-	// ファーストネームを宣言(インスタンスフィールド)
+	// ファーストネーム(太郎,花子)を宣言(インスタンスフィールド)
 	public String firstName;
-	// ラストネームを宣言(インスタンスフィールド)
+	// ラストネームを宣言(鈴木,山田)(インスタンスフィールド)
 	public String lastName;
 	// 年齢を宣言(インスタンスフィールド)
 	public int age;
@@ -13,7 +13,15 @@ public class Person {
 	public static int count = 0;
 
 	// コンストラクタ
-	Person(String firstName, String lastName, int age, double height, double weight) {
+	Person(String firstName, int age, double height, double weight){
+		Person.count++;
+		this.firstName = firstName;
+		this.age = age;
+		this.height = height;
+		this.weight = weight;
+		}
+	// コンストラクタのオーバーロード
+	Person(String lastName,String firstName,  int age, double height, double weight) {
 		Person.count++;
 		this.firstName = firstName;
 		this.lastName = lastName;
