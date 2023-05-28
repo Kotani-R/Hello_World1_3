@@ -21,7 +21,7 @@ public class Person {
 		this.weight = weight;
 		}
 	// コンストラクタのオーバーロード
-	Person(String lastName,String firstName,  int age, double height, double weight) {
+	Person(String lastName, String firstName, int age, double height, double weight) {
 		Person.count++;
 		this.firstName = firstName;
 		this.lastName = lastName;
