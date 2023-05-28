@@ -2,7 +2,7 @@ package curriculum_1_30;
 
 public class Person {
 	// 名前を宣言
-	String name;
+	aString name;
 	// 年齢を宣言
 	int age;
 	//身長を宣言
