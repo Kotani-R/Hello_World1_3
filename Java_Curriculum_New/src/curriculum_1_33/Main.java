@@ -24,5 +24,4 @@ public class Main {
 		//「合計人数」を出力するクラスメソッド 
 		Person.printCount();
 	}
-
 }
