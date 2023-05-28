@@ -32,6 +32,7 @@ public class Person {
 		return BMI;
 	}
 
+	//「名前」,「年齢」,「BMI」,「合計人数」を出力するインスタンスメソッド
 	public void print() {
 		//「名前は〇〇です」
 		System.out.println("名前は" + this.name + "です");
